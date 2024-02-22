@@ -261,6 +261,11 @@ const struct MegaStruct sMegaTable[] =
         .itemindex = ITEM_DIANCITE,
         .form = 1,
     },
+    {
+        .monindex = SPECIES_MEGANIUM, 
+        .itemindex = ITEM_ABOMASITE,
+        .form = 1,
+    },
 };
 
 const struct MegaStructMove sMegaMoveTable[] =

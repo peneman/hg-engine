@@ -644,14 +644,18 @@ scr_seq_0003_033_give_item_verbose:
     end
 
 _085F:
+.ifndef DEBUG_GIVE_ALL_ITEMS
     call _04F2
+.endif
     giveitem VAR_SPECIAL_x8004, VAR_SPECIAL_x8005, VAR_SPECIAL_RESULT
     getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
+.ifndef DEBUG_GIVE_ALL_ITEMS
     compare VAR_SPECIAL_RESULT, 7
     call_if_eq _0892
     compare VAR_SPECIAL_RESULT, 7
     call_if_ne _08A3
     npc_msg 89
+.endif
     return
 
 _0892:
@@ -752,7 +756,7 @@ scr_seq_0003_010:
     scrcmd_609
     lockall
     play_se SEQ_SE_DP_PC_ON
-    call _0A18
+    call _PCAnimations
     buffer_players_name 0
     npc_msg 33
     touchscreen_menu_hide
@@ -762,6 +766,14 @@ _0A18:
     scrcmd_500 90
     scrcmd_501 90
     scrcmd_308 90
+    return
+
+_PCAnimations:
+    goto_if_set 0x18F, _skip
+    scrcmd_500 90
+    scrcmd_501 90
+    scrcmd_308 90
+_skip:
     return
 
 _0A23:
@@ -873,7 +885,7 @@ _0C01:
     buffer_players_name 0
     non_npc_msg 34
     call _0B17
-    call _0A18
+    call _PCAnimations
     fade_screen 6, 1, 1, RGB_BLACK
     goto _0B53
 
@@ -936,7 +948,7 @@ _0D18:
     buffer_players_name 0
     non_npc_msg 34
     call _0CA7
-    call _0A18
+    call _PCAnimations
     fade_screen 6, 1, 1, RGB_BLACK
     goto _0C39
 
@@ -957,7 +969,7 @@ _0D64:
     buffer_players_name 0
     non_npc_msg 34
     call _0CA7
-    call _0A18
+    call _PCAnimations
     fade_screen 6, 1, 1, RGB_BLACK
     goto _0C39
 
@@ -972,7 +984,7 @@ _0D98:
     buffer_players_name 0
     non_npc_msg 34
     call _0CA7
-    call _0A18
+    call _PCAnimations
     fade_screen 6, 1, 1, RGB_BLACK
     goto _0C39
 
@@ -995,13 +1007,16 @@ _0DE7:
 _0DF0:
     closemsg
     play_se SEQ_SE_DP_PC_LOGOFF
+    goto_if_set 0x18F, _skipPCOff
     call _0A23
+_skipPCOff:
+    clearflag 0x18F
     touchscreen_menu_show
     releaseall
     end
 
 _0E02:
-    call _0A18
+    call _PCAnimations
     fade_screen 6, 1, 1, RGB_BLACK
     wait_fade
     return
@@ -1009,7 +1024,9 @@ _0E02:
 _0E16:
     fade_screen 6, 1, 0, RGB_BLACK
     wait_fade
+    goto_if_set 0x18F, _skipPCTransition
     scrcmd_309 90
+_skipPCTransition:
     return
 
 scr_seq_0003_014:
@@ -1704,7 +1721,7 @@ scr_seq_0003_064:
     closemsg
     releaseall
     end
-
+    
 
 
 
