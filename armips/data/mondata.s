@@ -27418,3 +27418,19 @@ mondata SPECIES_URSALUNA_BLOODMOON, "-----"
     abilities ABILITY_MINDS_EYE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
+
+mondata SPECIES_MEGA_MEGANIUM, "-----"
+    basestats 80, 82, 140, 83, 140, 100
+    types TYPE_GRASS, TYPE_FAIRY
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 1, 0, 0, 2
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
+    abilities ABILITY_LEAF_GUARD, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GREEN, 0

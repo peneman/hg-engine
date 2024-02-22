@@ -1384,6 +1384,7 @@ gIconPalTable:
 /* SPECIES_OGERPON_CORNERSTONE_MASK    */ .byte  0x0
 /* SPECIES_TERAPAGOS_STELLAR           */ .byte  0x0
 /* SPECIES_URSALUNA_BLOODMOON          */ .byte  0x0
+/* SPECIES_MEGA_MEGANIUM        */ .byte  0x1
 
 .endarea
 

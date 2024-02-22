@@ -26675,3 +26675,27 @@ levelup SPECIES_TERAPAGOS_STELLAR
 levelup SPECIES_URSALUNA_BLOODMOON
     learnset MOVE_TACKLE, 1
     terminatelearnset
+
+levelup SPECIES_MEGA_MEGANIUM
+    learnset MOVE_PETAL_DANCE, 0
+    learnset MOVE_PETAL_DANCE, 1
+    learnset MOVE_PETAL_BLIZZARD, 1
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_GROWL, 1
+    learnset MOVE_RAZOR_LEAF, 1
+    learnset MOVE_POISON_POWDER, 1
+    learnset MOVE_RAZOR_LEAF, 6
+    learnset MOVE_POISON_POWDER, 9
+    learnset MOVE_SYNTHESIS, 12
+    learnset MOVE_REFLECT, 18
+    learnset MOVE_MAGICAL_LEAF, 22
+    learnset MOVE_NATURAL_GIFT, 26
+    learnset MOVE_SWEET_SCENT, 34
+    learnset MOVE_LIGHT_SCREEN, 40
+    learnset MOVE_BODY_SLAM, 46
+    learnset MOVE_SAFEGUARD, 54
+    learnset MOVE_AROMATHERAPY, 60
+    learnset MOVE_SOLAR_BEAM, 66
+    learnset MOVE_PETAL_BLIZZARD, 70
+    terminatelearnset
+
