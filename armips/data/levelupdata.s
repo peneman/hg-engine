@@ -26699,3 +26699,24 @@ levelup SPECIES_MEGA_MEGANIUM
     learnset MOVE_PETAL_BLIZZARD, 70
     terminatelearnset
 
+levelup SPECIES_MEGA_FERALIGATR
+    learnset MOVE_AGILITY, 1
+    learnset MOVE_SCRATCH, 1
+    learnset MOVE_LEER, 1
+    learnset MOVE_WATER_GUN, 1
+    learnset MOVE_RAGE, 1
+    learnset MOVE_WATER_GUN, 6
+    learnset MOVE_RAGE, 8
+    learnset MOVE_BITE, 13
+    learnset MOVE_SCARY_FACE, 15
+    learnset MOVE_ICE_FANG, 21
+    learnset MOVE_FLAIL, 24
+    learnset MOVE_CRUNCH, 32
+    learnset MOVE_CHIP_AWAY, 37
+    learnset MOVE_SLASH, 45
+    learnset MOVE_SCREECH, 50
+    learnset MOVE_THRASH, 58
+    learnset MOVE_AQUA_TAIL, 63
+    learnset MOVE_SUPERPOWER, 71
+    learnset MOVE_HYDRO_PUMP, 76
+    terminatelearnset

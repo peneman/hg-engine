@@ -302,6 +302,13 @@ const struct FormData UNUSED PokeFormDataTbl[]=
         .need_rev = 1,
         .file = SPECIES_MEGA_MEGANIUM,
     },
+    {
+        .species = SPECIES_FERALIGATR,
+        .form_no = 1,
+        .need_rev = 1,
+        .file = SPECIES_MEGA_FERALIGATR,
+    },
+
 #endif // MEGA_EVOLUTIONS
 
 #ifdef PRIMAL_REVERSION

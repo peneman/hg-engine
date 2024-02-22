@@ -1318,5 +1318,6 @@ const u16 UNUSED BaseExperienceTable[] =
     [SPECIES_TERAPAGOS_STELLAR           ] = 180, // TODO verify
     [SPECIES_URSALUNA_BLOODMOON          ] = 275,
     [SPECIES_MEGA_MEGANIUM               ] = 313,
+    [SPECIES_MEGA_FERALIGATR             ] = 315,
 
 };

@@ -27434,3 +27434,19 @@ mondata SPECIES_MEGA_MEGANIUM, "-----"
     abilities ABILITY_LEAF_GUARD, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
+
+mondata SPECIES_MEGA_FERALIGATR, "-----"
+    basestats 85, 140, 110, 89, 103, 103
+    types TYPE_WATER, TYPE_DARK
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 2, 1, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
+    abilities ABILITY_TOUGH_CLAWS, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BLUE, 0
