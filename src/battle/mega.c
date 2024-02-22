@@ -266,6 +266,11 @@ const struct MegaStruct sMegaTable[] =
         .itemindex = ITEM_ABOMASITE,
         .form = 1,
     },
+    {
+        .monindex = SPECIES_FERALIGATR, 
+        .itemindex = ITEM_ABOMASITE,
+        .form = 1,
+    },
 };
 
 const struct MegaStructMove sMegaMoveTable[] =
