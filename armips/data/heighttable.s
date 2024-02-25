@@ -1138,6 +1138,10 @@ heightentry SPECIES_MEGA_ABOMASNOW, 3, 3, 0, 0
 heightentry SPECIES_MEGA_GALLADE, 3, 3, 0, 0
 heightentry SPECIES_MEGA_AUDINO, 3, 3, 0, 0
 heightentry SPECIES_MEGA_DIANCIE, 5, 5, 0, 0
+heightentry SPECIES_MEGA_MEGANIUM, 2, 2, 2, 2
+heightentry SPECIES_MEGA_FERALIGATR, 3, 3, 4, 4
+heightentry SPECIES_MEGA_FLYGON, 4, 4, 6, 6
+heightentry SPECIES_MEGA_BUTTERFREE, 6, 6, 14, 14
 
 heightentry SPECIES_KYOGRE_PRIMAL, "null", 0, "null", 2
 heightentry SPECIES_GROUDON_PRIMAL, "null", 6, "null", 1
@@ -1378,5 +1382,4 @@ heightentry SPECIES_OGERPON_HEARTHFLAME_MASK, 0, 0, 0, 0
 heightentry SPECIES_OGERPON_CORNERSTONE_MASK, 0, 0, 0, 0
 heightentry SPECIES_TERAPAGOS_STELLAR, 0, 0, 0, 0
 heightentry SPECIES_URSALUNA_BLOODMOON, 0, 0, 0, 0
-heightentry SPECIES_MEGA_MEGANIUM, 2, 2, 2, 2
-heightentry SPECIES_MEGA_FERALIGATR, 3, 3, 4, 4
+

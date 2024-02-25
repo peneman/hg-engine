@@ -309,6 +309,19 @@ const struct FormData UNUSED PokeFormDataTbl[]=
         .file = SPECIES_MEGA_FERALIGATR,
     },
 
+    {
+        .species = SPECIES_FLYGON,
+        .form_no = 1,
+        .need_rev = 1,
+        .file = SPECIES_MEGA_FLYGON,
+    },
+    {
+        .species = SPECIES_BUTTERFREE,
+        .form_no = 1,
+        .need_rev = 1,
+        .file = SPECIES_MEGA_BUTTERFREE,
+    },
+
 #endif // MEGA_EVOLUTIONS
 
 #ifdef PRIMAL_REVERSION

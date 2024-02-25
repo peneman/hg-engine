@@ -23376,6 +23376,71 @@ mondata SPECIES_MEGA_DIANCIE, "-----"
     runchance 0
     colorflip 0, 0
 
+mondata SPECIES_MEGA_MEGANIUM, "-----"
+    basestats 80, 82, 140, 83, 140, 100
+    types TYPE_GRASS, TYPE_FAIRY
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 1, 0, 0, 2
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
+    abilities ABILITY_LEAF_GUARD, ABILITY_NONE
+    runchance 0
+    colorflip 0, 0
+
+mondata SPECIES_MEGA_FERALIGATR, "-----"
+    basestats 85, 140, 110, 89, 103, 103
+    types TYPE_WATER, TYPE_DARK
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 2, 1, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
+    abilities ABILITY_TOUGH_CLAWS, ABILITY_NONE
+    runchance 0
+    colorflip 0, 0
+
+
+mondata SPECIES_MEGA_FLYGON, "-----"
+    basestats 85, 140, 110, 89, 103, 103
+    types TYPE_BUG, TYPE_DRAGON
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 2, 1, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
+    abilities ABILITY_COMPOUND_EYES, ABILITY_NONE
+    runchance 0
+    colorflip 0, 0
+
+mondata SPECIES_MEGA_BUTTERFREE, "-----"
+    basestats 60, 45, 100, 140, 90, 90
+    types TYPE_BUG, TYPE_FLYING
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 2, 1
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 15
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
+    abilities ABILITY_COMPOUND_EYES, ABILITY_NONE
+    runchance 0
+    colorflip 0, 0
+
 mondata SPECIES_GROUDON_PRIMAL, "-----"
     basestats 100, 180, 160, 90, 150, 90
     types TYPE_GROUND, TYPE_FIRE
@@ -27419,34 +27484,3 @@ mondata SPECIES_URSALUNA_BLOODMOON, "-----"
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
 
-mondata SPECIES_MEGA_MEGANIUM, "-----"
-    basestats 80, 82, 140, 83, 140, 100
-    types TYPE_GRASS, TYPE_FAIRY
-    catchrate 45
-    baseexp 0 // defined in baseexp.s
-    evyields 0, 0, 1, 0, 0, 2
-    items ITEM_NONE, ITEM_NONE
-    genderratio 31
-    eggcycles 20
-    basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
-    egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
-    abilities ABILITY_LEAF_GUARD, ABILITY_NONE
-    runchance 0
-    colorflip BODY_COLOR_GREEN, 0
-
-mondata SPECIES_MEGA_FERALIGATR, "-----"
-    basestats 85, 140, 110, 89, 103, 103
-    types TYPE_WATER, TYPE_DARK
-    catchrate 45
-    baseexp 0 // defined in baseexp.s
-    evyields 0, 2, 1, 0, 0, 0
-    items ITEM_NONE, ITEM_NONE
-    genderratio 31
-    eggcycles 20
-    basefriendship 70
-    growthrate GROWTH_MEDIUM_SLOW
-    egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
-    abilities ABILITY_TOUGH_CLAWS, ABILITY_NONE
-    runchance 0
-    colorflip BODY_COLOR_BLUE, 0

@@ -1079,6 +1079,10 @@ const u16 UNUSED BaseExperienceTable[] =
     [SPECIES_MEGA_GALLADE                ] = 309,
     [SPECIES_MEGA_AUDINO                 ] = 425,
     [SPECIES_MEGA_DIANCIE                ] = 350,
+    [SPECIES_MEGA_MEGANIUM               ] = 313,
+    [SPECIES_MEGA_FERALIGATR             ] = 315,
+    [SPECIES_MEGA_FLYGON                 ] = 310,
+    [SPECIES_MEGA_BUTTERFREE             ] = 248,
     [SPECIES_KYOGRE_PRIMAL               ] = 385,
     [SPECIES_GROUDON_PRIMAL              ] = 385,
     [SPECIES_RATTATA_ALOLAN              ] = 51,
@@ -1317,7 +1321,5 @@ const u16 UNUSED BaseExperienceTable[] =
     [SPECIES_OGERPON_CORNERSTONE_MASK    ] = 275,
     [SPECIES_TERAPAGOS_STELLAR           ] = 180, // TODO verify
     [SPECIES_URSALUNA_BLOODMOON          ] = 275,
-    [SPECIES_MEGA_MEGANIUM               ] = 313,
-    [SPECIES_MEGA_FERALIGATR             ] = 315,
 
 };

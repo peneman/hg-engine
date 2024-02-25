@@ -18,8 +18,8 @@
 #include "../include/constants/weather_numbers.h"
 
 
-#define NELEMS_POKEFORMDATATBL 287
-
+#define NELEMS_POKEFORMDATATBL 300
+/**rn it's 288*/
 extern u32 word_to_store_form_at;
 
 /**

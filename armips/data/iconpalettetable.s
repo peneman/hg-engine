@@ -1146,6 +1146,10 @@ gIconPalTable:
 /* SPECIES_MEGA_GALLADE    */ .byte  0x1
 /* SPECIES_MEGA_AUDINO     */ .byte  0x1
 /* SPECIES_MEGA_DIANCIE    */ .byte  0x0
+/* SPECIES_MEGA_MEGANIUM               */ .byte  0x1
+/* SPECIES_MEGA_FERALIGATR             */ .byte  0x0
+/* SPECIES_MEGA_FLYGON                 */ .byte  0x1
+/* SPECIES_MEGA_BUTTERFREE             */ .byte  0x0
 /* SPECIES_KYOGRE_PRIMAL               */ .byte  0x0
 /* SPECIES_GROUDON_PRIMAL              */ .byte  0x1
 /* SPECIES_RATTATA_ALOLAN              */ .byte  0x2
@@ -1384,8 +1388,6 @@ gIconPalTable:
 /* SPECIES_OGERPON_CORNERSTONE_MASK    */ .byte  0x0
 /* SPECIES_TERAPAGOS_STELLAR           */ .byte  0x0
 /* SPECIES_URSALUNA_BLOODMOON          */ .byte  0x0
-/* SPECIES_MEGA_MEGANIUM               */ .byte  0x1
-/* SPECIES_MEGA_FERALIGATR             */ .byte  0x0
 
 .endarea
 

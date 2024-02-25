@@ -1080,6 +1080,10 @@ const u16 UNUSED HiddenAbilityTable[] =
     [SPECIES_MEGA_GALLADE                ] = ABILITY_NONE,
     [SPECIES_MEGA_AUDINO                 ] = ABILITY_NONE,
     [SPECIES_MEGA_DIANCIE                ] = ABILITY_NONE,
+    [SPECIES_MEGA_MEGANIUM               ] = ABILITY_NONE,
+    [SPECIES_MEGA_FERALIGATR             ] = ABILITY_NONE,
+    [SPECIES_MEGA_FLYGON                 ] = ABILITY_NONE,
+    [SPECIES_MEGA_BUTTERFREE             ] = ABILITY_NONE,
     [SPECIES_KYOGRE_PRIMAL               ] = ABILITY_NONE,
     [SPECIES_GROUDON_PRIMAL              ] = ABILITY_NONE,
     [SPECIES_RATTATA_ALOLAN              ] = ABILITY_THICK_FAT,
@@ -1318,6 +1322,5 @@ const u16 UNUSED HiddenAbilityTable[] =
     [SPECIES_OGERPON_CORNERSTONE_MASK    ] = ABILITY_NONE,
     [SPECIES_TERAPAGOS_STELLAR           ] = ABILITY_NONE,
     [SPECIES_URSALUNA_BLOODMOON          ] = ABILITY_NONE,
-    [SPECIES_MEGA_MEGANIUM               ] = ABILITY_NONE,
-    [SPECIES_MEGA_FERALIGATR             ] = ABILITY_NONE,
+
 };
