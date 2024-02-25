@@ -23441,6 +23441,22 @@ mondata SPECIES_MEGA_BUTTERFREE, "-----"
     runchance 0
     colorflip 0, 0
 
+mondata SPECIES_MEGA_TYPHLOSION, "-----"
+    basestats 78, 89, 88, 159, 110, 110
+    types TYPE_FIRE, TYPE_GROUND
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 3, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_FLASH_FIRE, ABILITY_NONE
+    runchance 0
+    colorflip 0, 0
+
 mondata SPECIES_GROUDON_PRIMAL, "-----"
     basestats 100, 180, 160, 90, 150, 90
     types TYPE_GROUND, TYPE_FIRE

@@ -321,6 +321,12 @@ const struct FormData UNUSED PokeFormDataTbl[]=
         .need_rev = 1,
         .file = SPECIES_MEGA_BUTTERFREE,
     },
+    {
+        .species = SPECIES_TYPHLOSION,
+        .form_no = 2,
+        .need_rev = 1,
+        .file = SPECIES_MEGA_TYPHLOSION,
+    },
 
 #endif // MEGA_EVOLUTIONS
 

@@ -22259,7 +22259,7 @@ levelup SPECIES_MEGA_FLYGON
     learnset MOVE_BOOMBURST, 68
     terminatelearnset
 
-levelup SPECIES_BUTTERFREE
+levelup SPECIES_MEGA_BUTTERFREE
     learnset MOVE_GUST, 0
     learnset MOVE_GUST, 1
     learnset MOVE_HARDEN, 1
@@ -22282,6 +22282,30 @@ levelup SPECIES_BUTTERFREE
     learnset MOVE_CAPTIVATE, 37
     learnset MOVE_TAILWIND, 38
     learnset MOVE_QUIVER_DANCE, 45
+    terminatelearnset
+
+levelup SPECIES_MEGA_TYPHLOSION
+    learnset MOVE_ERUPTION, 1
+    learnset MOVE_DOUBLE_EDGE, 1
+    learnset MOVE_GYRO_BALL, 1
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_LEER, 1
+    learnset MOVE_SMOKESCREEN, 1
+    learnset MOVE_EMBER, 1
+    learnset MOVE_SMOKESCREEN, 6
+    learnset MOVE_EMBER, 10
+    learnset MOVE_QUICK_ATTACK, 13
+    learnset MOVE_FLAME_WHEEL, 20
+    learnset MOVE_DEFENSE_CURL, 24
+    learnset MOVE_SWIFT, 31
+    learnset MOVE_FLAME_CHARGE, 35
+    learnset MOVE_LAVA_PLUME, 43
+    learnset MOVE_FLAMETHROWER, 48
+    learnset MOVE_INFERNO, 56
+    learnset MOVE_ROLLOUT, 61
+    learnset MOVE_DOUBLE_EDGE, 69
+    learnset MOVE_BURN_UP, 74
+    learnset MOVE_ERUPTION, 82
     terminatelearnset
 
 levelup SPECIES_KYOGRE_PRIMAL

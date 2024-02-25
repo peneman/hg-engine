@@ -281,7 +281,11 @@ const struct MegaStruct sMegaTable[] =
         .itemindex = ITEM_ABOMASITE,
         .form = 1,
     },
-
+    {
+        .monindex = SPECIES_TYPHLOSION, 
+        .itemindex = ITEM_ABOMASITE,
+        .form = 2,
+    },
 };
 
 const struct MegaStructMove sMegaMoveTable[] =

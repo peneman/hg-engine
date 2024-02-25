@@ -1083,6 +1083,7 @@ const u16 UNUSED BaseExperienceTable[] =
     [SPECIES_MEGA_FERALIGATR             ] = 315,
     [SPECIES_MEGA_FLYGON                 ] = 310,
     [SPECIES_MEGA_BUTTERFREE             ] = 248,
+    [SPECIES_MEGA_TYPHLOSION             ] = 317,
     [SPECIES_KYOGRE_PRIMAL               ] = 385,
     [SPECIES_GROUDON_PRIMAL              ] = 385,
     [SPECIES_RATTATA_ALOLAN              ] = 51,

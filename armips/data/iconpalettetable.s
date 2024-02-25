@@ -1150,6 +1150,7 @@ gIconPalTable:
 /* SPECIES_MEGA_FERALIGATR             */ .byte  0x0
 /* SPECIES_MEGA_FLYGON                 */ .byte  0x1
 /* SPECIES_MEGA_BUTTERFREE             */ .byte  0x0
+/* SPECIES_MEGA_TYPHLOSION             */ .byte  0x1
 /* SPECIES_KYOGRE_PRIMAL               */ .byte  0x0
 /* SPECIES_GROUDON_PRIMAL              */ .byte  0x1
 /* SPECIES_RATTATA_ALOLAN              */ .byte  0x2
